@@ -1,0 +1,29 @@
+{
+    "name": "chris/test.cn",
+    "authors": [
+        {
+            "name": "chris",
+            "email": "15311459585@163.com",
+			"homepage":"https://github.com/hotday1987"
+        }
+    ],
+	"homepage":"https://github.com/hotday1987",
+	"license":"MIT",
+	"keywords":[
+	
+	],
+	
+	"require": {
+		"php":">=5.6.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"Chris\\":"src/"
+		}
+	},
+	"autoload-dev":{
+		"psr-4":{
+			"Chris\\":"src/"
+		}
+	}
+}
